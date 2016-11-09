@@ -1,0 +1,202 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab);
+@import url('https://fonts.googleapis.com/css?family=Monoton|Raleway:400,700');
+@import 'https://fonts.googleapis.com/css?family=Black+Ops+One';
+
+body {
+    justify-content: center;
+    margin-top: 20px;
+    background-color: black;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+  
+}
+
+
+.title{
+    width:33%;
+    font-size: 56px;
+    text-transform: capitalize;
+    height:auto;
+    margin: 10px auto 10px auto;
+    font-family: 'Black Ops One', cursive;
+    display:flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.title span:not(:last-child) {
+    margin-right: 3px;
+}
+
+.title span:nth-child(1) {
+    color: #b5e854;
+    margin-left: 5px;}
+
+.title span:nth-child(2) {
+    color: #cae288;
+    margin-left: 5px;}
+
+.title span:nth-child(3) {
+    color: #d7e5b7;
+    margin-left: 5px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+
+#searchInput {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-image: url('search.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 60px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    display: flex;
+    width: 40%;
+    margin-left:50%;
+/*    justify-content: center;
+*/    background-color: #000000;
+    color: #ffffff;
+    border: 1px solid #b5e854;
+    border-bottom-color: #d7e5b7;
+    font-size: 1.6em;
+    -moz-border-radius: 1px;
+    -webkit-border-radius: 1px;
+    border-radius: 1px;
+    -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,.5), 0 0 0 3px #d7e5b7;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.5), 0 0 0 3px #d7e5b7;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,1), 0 0 0 3px #d7e5b7;
+}
+
+#searchInput:focus::-webkit-input-placeholder {
+    color:000000;
+    }
+
+.accordion {
+    display: flex;
+    position:relative;
+    flex-flow: column nowrap;
+    width: 600px;
+    height: auto;
+    border-radius: 3px;
+    background-color: #FFF;
+    box-shadow: 0 1px 2px 0 rgba(34, 36, 38, .15), 0 0 0 1px rgba(34, 36, 38, .15);
+}
+
+.accordion>.accordion-item {
+    flex: 0 1 auto;
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 3px 0 3px 0px;
+    border-top: 1px solid rgba(34, 36, 38, .15);
+    padding-left: 15px;
+}
+
+.accordion>.accordion-item:first-of-type {
+    border-top: none;
+}
+
+.accordion-item>.item-content {
+    overflow: hidden;
+    display: none;
+    padding-left: 15px;
+    margin: 6px 0 0 0px;
+}
+
+.accordion-item.open>.item-content {
+    overflow: hidden;
+    display: block;
+}
+
+.accordion-item.open>.item-title {
+    color: rgba(0, 0, 0, 1);
+}
+
+.accordion-item>.item-title:hover {
+    color: rgba(0, 0, 0, 1);
+}
+
+.accordion-item>.item-title {
+    display: flex;
+    align-items: center;
+    margin: 3px 0 0 0px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, .4);
+}
+
+.accordion-item>.item-title:before {
+    content: "\25BA";
+    font-size: 10px;
+    line-height: inherit;
+    margin-right: 5px;
+    transition: transform 200ms;
+}
+
+.accordion-item.open>.item-title:before {
+    transform: rotate(90deg);
+}
+
+.accordion-2 {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.accordion-2>.accordion-2-item {
+    flex: 0 1 auto;
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 3px 0 0px 0px;
+    padding-left: 15px;
+}
+
+.accordion-2>.accordion-2-item:first-of-type {
+    border-top: none;
+}
+
+.accordion-2-item>.item-content {
+    overflow: hidden;
+    display: none;
+    padding-left: 15px;
+    margin: 6px 0 0 0px;
+}
+
+.accordion-2-item.open>.item-content {
+    overflow: hidden;
+    display: block;
+}
+
+.accordion-2-item.open>.item-title {
+    color: rgba(0, 0, 255, 1);
+}
+
+.accordion-2-item>.item-title:hover {
+    color: rgba(0, 0, 255, 1);
+}
+
+.accordion-2-item>.item-title {
+    display: flex;
+    align-items: center;
+    margin: 3px 0 0 0;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 1);
+}
+
+.accordion-2-item>.item-title:before {
+    content: "\2022";
+    font-size: 30px;
+    line-height: inherit;
+    margin-right: 5px;
+    transition: transform 200ms;
+}
+
+.accordion-2-item.open {
+    transform: translateX(10px);
+}
