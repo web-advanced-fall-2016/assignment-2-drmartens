@@ -2,7 +2,9 @@
 
 ## What have your classmates done now???
 
-For this assignment, I am interacting with a server that provides a  a list of `Students` and their information. I built a  [**single page application**](https://en.wikipedia.org/wiki/Single-page_application).
+![alt tag](http://url/to/img.png)
+
+For this assignment, I am interacting with a server that provides a  a list of `Students` and their information. I built a  [**single page application**](https://en.wikipedia.org/wiki/Single-page_application) that shows the information for different students ("criminals").
 
 MFADT Most wanted allows users to search for a specific criminal using the search function at the top. I displays a list of DT Delinquints and their ID number in the crimes database. 
 
@@ -13,4 +15,4 @@ You can try out my application on it's [Project Page](http://projectpagelinkhere
 
 Have fun!
 
-#### Good Luck :fire::fire::thumbsup: 
+#### Good :fire::fire:
