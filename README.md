@@ -2,7 +2,7 @@
 
 ## What have your classmates done now???
 
-![alt tag](http://url/to/img.png)
+![mfadt most wanted screen shot](https://github.com/web-advanced-fall-2016/assignment-2-drmartens/blob/master/mfadtMostWantedSS.png)
 
 For this assignment, I am interacting with a server that provides a  a list of `Students` and their information. I built a  [**single page application**](https://en.wikipedia.org/wiki/Single-page_application) that shows the information for different students ("criminals").
 
