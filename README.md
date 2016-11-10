@@ -11,4 +11,4 @@ MFADT Most wanted allows users to search for a specific criminal using the searc
 When a criminals name is clicked on, it pulls up their record, displaying their name, photo, crime (created myself with a random number and an array of potential crimes), lists their Modus Operandi (biography), and shows where you can find them online.
 
 
-#### :fire::fire::sword:
+#### :bust_in_silhouette::thought_baloon::pill::gem::friedshrimp::rice_ball::ramen::sushi::gemini:
