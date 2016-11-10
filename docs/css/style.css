@@ -1,0 +1,210 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab);
+@import url('https://fonts.googleapis.com/css?family=Monoton|Raleway:400,700');
+@import 'https://fonts.googleapis.com/css?family=Black+Ops+One';
+
+
+body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    position: relative;
+}
+
+#pic {
+    width:auto;
+    height:auto;
+    max-height: 300px;
+    max-width: 300px;
+    justify-content: center;
+    border: 1px solid #b5e854;
+    border-radius:50%;
+}
+
+
+#searchAndResults {
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 0 30px;
+    position: relative;
+    color:white;
+}
+
+#searchBoxContainer>a {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    color:ffffff;
+   /* margin-left: 20px;*/
+    margin-top: 90px;
+    border: 1px solid #b5e854;
+    background-color: #000000;
+    border-radius: 50%;
+    transition: 300ms;
+}
+
+#wanted {
+    font-family: 'Black Ops One', cursive;
+    font-size:100pt;
+    text-align:center;
+    justify-content: center;
+    padding: 0px 10px 0px 10px;
+     color: #b5e854;
+     border-bottom: 1px dashed #b5e854;
+     margin: 0px 0px 0px 0px;
+}
+
+#information {
+    width: 85%;
+    margin-top:20px;
+}
+
+#links{
+    font-size:16pt;
+    text-align:center;
+    padding: 10px 0px 10px 0px;
+
+}
+
+#name{
+    font-size:30pt;
+    margin-top:20px;
+    text-align:center;
+}
+
+#crime{
+    font-size: 16pt;
+    text-align: center;
+    border-bottom: 1px dashed #b5e854;
+    padding: 10px 25px 10px 25px;
+}
+
+#tagline{
+    font-size: 17pt;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    border-bottom: 1px dashed #b5e854;
+
+}
+
+#pictureDiv{
+    text-align:center;
+    margin-top:20px;
+}
+
+#bio{
+    text-align:center;
+    font-size:16pt;
+    padding:10px 10px 10px 10px;
+    border-bottom: 1px dashed #b5e854;
+
+}
+
+.bioSpan {
+     color:#b5e854;
+     font-size:20pt;
+}
+
+.linkSpan{
+    color:white;
+    font-size:20pt;
+}
+
+.title{
+    font-size: 56px;
+    text-transform: capitalize;
+    width:85%;
+    /*margin: 10px 0px 10px 0px;*/
+    font-family: 'Black Ops One', cursive;
+    display: flex;
+  /*  justify-content: center;*/
+    cursor: pointer;
+}
+
+.title span:not(:last-child) {
+    margin-right: 3px;
+}
+
+.title span:nth-child(1) {
+    color: #b5e854;
+    margin-left: 5px;}
+
+.title span:nth-child(2) {
+    color: #cae288;
+    margin-left: 5px;}
+
+.title span:nth-child(3) {
+    color: #d7e5b7;
+    margin-left: 5px;
+}
+
+#searchBoxContainer {
+	position:relative;
+/*    margin-left:15%;
+*/}
+
+#searchResults {
+    position:relative;
+    width: 85%;
+    display:inline-block;
+    box-sizing: border-box;
+    border: 1px solid #b5e854;
+    padding: 11px 7px;
+    display:none;
+/*    border-bottom-color: #d7e5b7;
+*/}
+
+.listSpan {
+    color:#b5e854;
+}
+
+.resultItem{
+    padding: 10px 0px;
+    border-bottom: 1px #b5e854 dashed;
+    overflow: auto;
+    color:#ffffff;
+
+}
+
+#resultItem:last-child {
+   border-style: none;
+   padding-bottom: 0px;
+}
+
+
+
+#searchInput {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width:85%;
+    background-image: url('../img/search.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 60px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    display: flex;
+/*    justify-content: center;
+*/    background-color: #000000;
+    color: #ffffff;
+    border: 1px solid #b5e854;
+    border-bottom-color: #d7e5b7;
+    font-size: 1.6em;
+    -moz-border-radius: 1px;
+    -webkit-border-radius: 1px;
+    border-radius: 1px;
+    -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,.5), 0 0 0 3px #d7e5b7;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.5), 0 0 0 3px #d7e5b7;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,1), 0 0 0 3px #d7e5b7;
+}
+
+#searchInput:focus::-webkit-input-placeholder {
+    color:000000;
+    }
+
